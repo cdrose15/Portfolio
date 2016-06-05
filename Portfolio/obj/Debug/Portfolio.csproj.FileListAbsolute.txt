@@ -13,8 +13,5 @@ c:\users\cdros\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\ros
 c:\users\cdros\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Portfolio.dll.config
 c:\users\cdros\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Portfolio.dll
 c:\users\cdros\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Portfolio.pdb
-c:\users\cdros\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-c:\users\cdros\documents\visual studio 2015\Projects\Portfolio\Portfolio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-c:\users\cdros\documents\visual studio 2015\Projects\Portfolio\Portfolio\obj\Debug\Portfolio.csprojResolveAssemblyReference.cache
 c:\users\cdros\documents\visual studio 2015\Projects\Portfolio\Portfolio\obj\Debug\Portfolio.dll
 c:\users\cdros\documents\visual studio 2015\Projects\Portfolio\Portfolio\obj\Debug\Portfolio.pdb

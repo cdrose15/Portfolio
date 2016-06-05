@@ -129,45 +129,45 @@ jQuery(document).ready(function($) {
     };
     var data = {
         html_css: [{
-            value: 95,
+            value: 100,
             color: "#404148"
         }, {
-            value: 5,
+            value: 0,
             color: "#fff"
         }],
         sass: [{
-            value: 90,
+            value: 100,
             color: "#404148"
         }, {
-            value: 10,
+            value: 0,
             color: "#fff"
         }],
         jquery: [{
-            value: 90,
+            value: 100,
             color: "#404148"
         }, {
-            value: 10,
+            value: 0,
             color: "#fff"
         }],
         rails: [{
-            value: 60,
+            value: 100,
             color: "#404148"
         }, {
-            value: 40,
+            value: 0,
             color: "#fff"
         }],
         backbone: [{
-            value: 50,
+            value: 100,
             color: "#404148"
         }, {
-            value: 50,
+            value: 0,
             color: "#fff"
         }],
         photoshop: [{
-            value: 75,
+            value: 100,
             color: "#404148"
         }, {
-            value: 25,
+            value: 0,
             color: "#fff"
         }]
     };
@@ -193,9 +193,9 @@ jQuery(document).ready(function($) {
     map = new GMaps({
         position: "TOP_CENTER",
         el: '#map',
-        lat: 23.790223,
-        lng: 90.414036,
-        zoom: 13,
+        lat: 36.049534,
+        lng: -79.979216,
+        zoom: 11,
         zoomControl: true,
         zoomControlOpt: {
             style: 'SMALL',
@@ -206,12 +206,8 @@ jQuery(document).ready(function($) {
     });
     // add address markers
     map.addMarker({
-        lat: 23.790223,
-        lng: 90.414036,
-        title: 'Codetic',
-        infoWindow: {
-            content: '<p> Mirpur , Dhaka</p>'
-        }
+        lat: 36.049534,
+        lng: -79.979216
     });
 
 

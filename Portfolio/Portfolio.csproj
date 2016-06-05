@@ -66,8 +66,21 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\CRose.jpeg" />
+    <Content Include="img\favicon.png" />
+    <Content Include="img\img-1-large.jpg" />
+    <Content Include="img\img-1-small.jpg" />
+    <Content Include="img\portfolio\budget.jpg" />
+    <Content Include="img\portfolio\classicCar.jpg" />
+    <Content Include="img\portfolio\blog.png" />
+    <Content Include="inc\sendEmail.php">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="js\gmaps.js" />
     <Content Include="packages.config" />
-    <Content Include="inc\sendEmail.php" />
+    <Content Include="Resume\Resume_2016.pdf" />
+    <None Include="Properties\PublishProfiles\crosedevelopment.com - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\crosedevelopment.com - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -82,7 +95,6 @@
     <Content Include="img\bg-2.jpg" />
     <Content Include="img\bg-3.jpg" />
     <Content Include="img\bg-4.jpg" />
-    <Content Include="img\favicon.png" />
     <Content Include="img\fun-bg.jpg" />
     <Content Include="img\icons\email-icon.svg" />
     <Content Include="img\icons\grad-cap.svg" />
@@ -100,8 +112,6 @@
     <Content Include="img\icons\phone-icon.svg" />
     <Content Include="img\icons\services-icon.svg" />
     <Content Include="img\icons\smile.svg" />
-    <Content Include="img\img-1-large.jpg" />
-    <Content Include="img\img-1-small.jpg" />
     <Content Include="img\img-2-large.jpg" />
     <Content Include="img\img-2-small.jpg" />
     <Content Include="img\img-3-large.jpg" />
@@ -109,7 +119,6 @@
     <Content Include="img\img-4-large.jpg" />
     <Content Include="img\img-4-small.jpg" />
     <Content Include="img\portfolio\placeholder.jpg" />
-    <Content Include="img\portfolio\thumb\placeholder_thumb.jpg" />
     <Content Include="img\svg-loaders\audio.svg" />
     <Content Include="img\svg-loaders\ball-triangle.svg" />
     <Content Include="img\svg-loaders\bars.svg" />
@@ -124,7 +133,6 @@
     <Content Include="img\svg-loaders\tail-spin.svg" />
     <Content Include="img\svg-loaders\three-dots.svg" />
     <Content Include="index.html" />
-    <Content Include="js\gmaps.js" />
     <Content Include="js\jquery-2.1.1.js" />
     <Content Include="js\modernizr.js" />
     <Content Include="js\scripts.js" />
@@ -142,6 +150,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
